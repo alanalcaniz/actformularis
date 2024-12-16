@@ -1,0 +1,26 @@
+
+/* Aquestos estils els he afegit per gust personal y fer-ho més agradable, 
+que amb cuatre xorradetes ho podem millorar molt */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+}
+
+.div-formulario{
+    background-color: #181818;
+    max-width: 1000px;
+    margin: 10px auto;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2{
+    border-bottom: 2px solid #333;
+    margin-bottom: 10px;
+}
