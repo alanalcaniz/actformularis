@@ -43,56 +43,104 @@
         <p>Crea un formulari que incloga caselles de verificació per seleccionar múltiples opcions, com ara gustos o preferències.</p>
         <h2>Exercici 3:</h2>
         <form>
-
+            <input type="checkbox" name="html" id="html"><label for="html">Se HTML</label><br>
+            <input type="checkbox" name="css" id="css"><label for="css">Se CSS</label><br>
+            <input type="checkbox" name="js" id="js"><label for="js">Se JS</label><br>
+            <input type="submit" value="Enviar">
         </form>
     </div>
     <div class="div-formulario">
         <p>Crea un formulari amb botons de ràdio perquè l'usuari puga triar entre diferents opcions (per exemple, tipus de compte: estàndard, premium, bàsic).</p>
         <h2>Exercici 4:</h2>
+        <p>Tipus de compte: </p>
         <form>
-
+            <input type="radio" name="estandard" id="estandard"><label for="estandard">Estandard</label><br>
+            <input type="radio" name="premium" id="premium"><label for="premium">Premium</label><br>
+            <input type="radio" name="basic" id="basic" value="JavaScript"><label for="basic">Básic</label><br>
+            <input type="submit" value="Enviar">
         </form>
     </div>
     <div class="div-formulario">
         <p>Crea un formulari amb un camp de text multilineal que permeta als usuaris proporcionar comentaris o suggeriments.</p>
         <h2>Exercici 5:</h2>
         <form>
-
+            <label for="fname">Nombre: </label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="fname">Comentarios: </label>
+            <textarea name="message" rows="4" cols="30">Introduce tu mensaje</textarea><br>
+            <input type="submit" value="Enviar">
         </form>
     </div>
     <div class="div-formulario">
         <p>Afegeix la validació de camps obligatoris utilitzant l'atribut required en alguns camps un formulari.</p>
         <h2>Exercici 6:</h2>
         <form>
-
+            <label for="fname" >Nombre: </label>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="useremail">Email: </label>
+            <input type="email" id="useremail" name="useremail" required><br>
+            <label for="usercontrasena">Contrasenya: </label>
+            <input type="password" id="usercontrasena" name="usercontrasena" required><br>
+            <input type="submit" value="Enviar">
         </form>
     </div>
     <div class="div-formulario">
         <p>Incorpora un camp de data que sol·licite a l'usuari la seua data de naixement.</p>
         <h2>Exercici 7:</h2>
         <form>
-
+            <label for="fname" >Nombre: </label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="datanacimiento" >Fecha Nacimiento: </label>
+            <input type="date" id="datanacimiento" name="datanacimiento"><br>
+            <input type="submit" value="Enviar">
         </form>
     </div>
     <div class="div-formulario">
         <p>Un formulari amb un camp de càrrega d'arxius per permetre als usuaris pujar documents o imatges.</p>
         <h2>Exercici 8:</h2>
         <form>
-
+            <label for="fname">Nombre: </label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="useremail">Email: </label>
+            <input type="email" id="useremail" name="useremail"><br>
+            <label for="imagenusuari">Imagen: </label>
+            <input type="file" id="imagenusuari" name="imagenusuari"><br>
+            <input type="submit" value="Enviar">
+            
         </form>
     </div>
     <div class="div-formulario">
         <p>Agrupa camps relacionats utilitzant l'element "fieldset" i "legend". Per exemple, agrupa els camps relacionats amb l'adreça.</p>
         <h2>Exercici 9:</h2>
         <form>
-
+            <fieldset style="padding: 5px;">
+                <legend>Crear Cuenta: </legend>
+                <label for="fname">Nombre: </label>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="useremail">Email: </label>
+                <input type="email" id="useremail" name="useremail"><br>
+                <label for="usercontrasena">Contrasenya: </label>
+                <input type="password" id="usercontrasena" name="usercontrasena"><br>
+                <input type="submit" value="Enviar">
+            </fieldset>
         </form>
     </div>
     <div class="div-formulario">
         <p>Utilitza CSS per millorar l'aspecte visual del formulari. Pots personalitzar els colors, les fonts i els marges per fer-lo més atractiu.</p>
         <h2>Exercici 10:</h2>
-        <form>
-
+        <form id="ex10">
+            <fieldset class="fieldset-ex10">
+                <legend>Crear Cuenta </legend>
+                <label for="fname">Nombre: </label><br>
+                <input class="input-ex10" type="text" id="fname" name="fname" required><br>
+                <label for="useremail">Email: </label><br>
+                <input class="input-ex10" type="email" id="useremail" name="useremail" required><br>
+                <label for="usercontrasena">Contrasenya: </label><br>
+                <input class="input-ex10" type="password" id="usercontrasena" name="usercontrasena" required><br>
+                <label for="fname">Comentarios: </label><br>
+                <textarea class="input-ex10" name="message" rows="8" cols="30" style="resize: none; height: 120px;">Introduce tu mensaje</textarea><br>
+                <input class="boton-enviar-ex10" type="submit" value="Enviar">
+            </fieldset>
         </form>
     </div>
 </body>

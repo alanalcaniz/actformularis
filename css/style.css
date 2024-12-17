@@ -24,3 +24,39 @@ h2{
     border-bottom: 2px solid #333;
     margin-bottom: 10px;
 }
+
+/* Ací comencen els estils de el Exercici 10 */
+
+#ex10{
+    width: 500px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222;
+
+}
+
+.fieldset-ex10{
+    padding: 10px;
+}
+
+.boton-enviar-ex10{
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    background-color: #666;
+    font-size: 20px;
+    border-bottom: 3px solid #bbb;
+}
+
+.input-ex10{
+    width: 470px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #555;
+    border-bottom: 3px solid #bbb;
+    margin-bottom: 10px;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
